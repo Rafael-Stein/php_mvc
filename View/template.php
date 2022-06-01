@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="http://localhost/php_mvc/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="http://localhost/php_mvc/"><img class="logo" src="./image/logo.png"></a>
+        <a href="http://localhost/php_mvc/"><img class="logo" src="http://localhost/php_mvc/image/logo.png"></a>
         <nav>
             <ul class="menuNavegacao">
                 <li><a href="http://localhost/php_mvc/">Início</a></li>

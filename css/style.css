@@ -115,3 +115,23 @@ footer p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.mensagemErro {
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: rgba(192, 0, 0, 0.75);
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #C0C0C0;
+    text-align: center;
+}
+
+.mensagemSucesso {
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: rgba(64, 128, 192, 0.75);
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #C0C0C0;
+    text-align: center;
+}

@@ -14,7 +14,7 @@ if(isset($_GET['rss']))
 
     if(!empty($url))
     {
-        //Dividir a URL em uma Array utilizando o separados '/':
+        //Dividir a URL em uma Array utilizando o separador '/':
         $url = explode('/', $url);
         //Obter a Classe. Exemplo: homeController, usuarioController, produtoController e etc.
         $controller = $url[0] . 'Controller';

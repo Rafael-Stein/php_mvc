@@ -1,6 +1,6 @@
 <h1>Empresa</h1>
 <br>
-<h2>Número Primos</h2>
+<h2>Números Primos</h2>
 
 <?php
 $numerosPrimos = array();
