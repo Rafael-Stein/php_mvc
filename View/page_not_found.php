@@ -1,0 +1,2 @@
+<h1>Página não encontrada!</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae dolorum perspiciatis ratione saepe quis minus, mollitia perferendis dolorem magni obcaecati! Blanditiis doloremque nobis corporis exercitationem labore similique. Voluptas, nesciunt.</p>
