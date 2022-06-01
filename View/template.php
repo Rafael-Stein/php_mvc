@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="./"><img class="logo" href="image/logo.png"></a>
+        <a href="./"><img class="logo" src="image/logo.png"></a>
         <nav>
             <ul class="menuNavegacao">
                 <li><a href="./">Início</a></li>
