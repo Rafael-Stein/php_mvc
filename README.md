@@ -1,5 +1,5 @@
 # Projeto: php_mvc
- > Exemplo bem simples de padrão MVC utilizando a linguagem PHP
+ > Exemplo simplificado do padrão MVC utilizando a linguagem PHP
 
 ## Finalidades
  * Material de estudo e de simples entendimento
