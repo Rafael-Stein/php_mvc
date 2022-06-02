@@ -9,17 +9,22 @@
 </head>
 <body>
     <header>
-        <a href="http://localhost/php_mvc/"><img class="logo" src="http://localhost/php_mvc/image/logo.png"></a>
+        <a href="http://localhost/php_mvc/">
+            <img class="logo" src="http://localhost/php_mvc/image/logo.png">
+        </a>
         <nav>
             <ul class="menuNavegacao">
-                <li><a href="http://localhost/php_mvc/">Início</a></li>
-                <li><a href="http://localhost/php_mvc/empresa">Empresa</a></li>
+                <li>
+                    <a href="http://localhost/php_mvc/">Início</a>
+                </li>
+                <li>
+                    <a href="http://localhost/php_mvc/home/empresa">Empresa</a>
+                </li>
             </ul>
         </nav>
-        <div>
-            <a href="http://localhost/php_mvc/contato"><button>Contato</button></a>
-            <a href="http://localhost/php_mvc/login"><button>Login</button></a>
-        </div>
+        <a href="http://localhost/php_mvc/home/contato">
+            <button>Contato</button>
+        </a>
     </header>
 
     <section class="conteudoSite">
@@ -31,6 +36,6 @@
     <footer>
         <p>Algum texto de rodapé &copy <?php echo date("Y"); ?></p>
     </footer>
-
+    
 </body>
 </html>

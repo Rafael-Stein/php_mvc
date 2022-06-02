@@ -1,42 +1,9 @@
 <h1>Página Inicial</h1>
-<br>
-<h2>Sequência de Fibonacci</h2>
-
-<?php
-$x = 1;
-$y = 1;
-$resultado[0] = $x;
-$resultado[1] = $y;
-
-for ($i = 2; $i < 15; $i++)
-{
-    $resultado[$i] = $x + $y;
-
-    if($i % 2 == 0)
-    {
-        $y = $resultado[$i];
-    }
-    else
-    {
-        $x = $resultado[$i];
-    }
-}
-
-for ($i = 0; $i < count($resultado); $i++)
-{
-    if($i == 0)
-    {
-        echo "<p>$resultado[$i]";
-    }
-    else
-    {
-        echo ", $resultado[$i]";
-
-        if($i == count($resultado))
-        {
-            echo "</p>";
-        }
-    }
-}
-
-?>
+<h2>Paragráfo 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio velit officia, fugit quaerat aliquam impedit dolorum illum! Assumenda laborum, numquam error commodi sequi cum maxime a saepe quis nulla?</p>
+<h3>Paragráfo 2</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quidem ipsa quo esse omnis eaque quod, fugiat modi corrupti velit suscipit, non deleniti quasi illo asperiores cum dolores, voluptatum cupiditate.</p>
+<h4>Paragráfo 3</h4>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nobis qui magnam delectus velit necessitatibus quod corrupti quo nam quidem nulla non ducimus facilis atque quis quisquam, modi voluptate hic.</p>
+<h5>Paragráfo 4</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eum excepturi aperiam repellendus aliquam distinctio? Suscipit molestias dolores saepe eveniet, iste accusamus earum vitae deserunt error repudiandae id corrupti aliquid?</p>

@@ -1,46 +1,7 @@
 <h1>Empresa</h1>
-<br>
-<h2>Números Primos</h2>
-
-<?php
-$numerosPrimos = array();
-$indice = 0;
-for ($numero = 0; $numero <= 100; $numero++)
-{ 
-    $isPrimo = true;
-
-    for ($i = 2; $i < $numero; $i++)
-    { 
-        if ($numero % $i == 0) 
-        {
-            $isPrimo = false;
-            $i = $numero;
-        }
-    }
-
-    if($isPrimo)
-    {
-        $numerosPrimos[$indice] = $numero;
-        $indice += 1;
-    }
-}
-
-for ($i = 0; $i < count($numerosPrimos); $i++)
-{
-    if($i == 0)
-    {
-        echo "<p>$numerosPrimos[$i]";
-    }
-    else
-    {
-        echo ", $numerosPrimos[$i]";
-
-        if($i == count($numerosPrimos))
-        {
-            echo "</p>";
-        }
-    }
-}
-
-
-?>
+<h2>Paragráfo 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio velit officia, fugit quaerat aliquam impedit dolorum illum! Assumenda laborum, numquam error commodi sequi cum maxime a saepe quis nulla?</p>
+<h3>Paragráfo 2</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quidem ipsa quo esse omnis eaque quod, fugiat modi corrupti velit suscipit, non deleniti quasi illo asperiores cum dolores, voluptatum cupiditate.</p>
+<h4>Paragráfo 3</h4>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nobis qui magnam delectus velit necessitatibus quod corrupti quo nam quidem nulla non ducimus facilis atque quis quisquam, modi voluptate hic.</p>

@@ -12,8 +12,15 @@
 }
 
 h1 {
-    margin-bottom: 5px;
     text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 5px 0;
+}
+
+p {
+    margin-bottom: 25px;
 }
 
 li, a, button {
@@ -21,10 +28,6 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
-}
-
-p {
-    padding: 2px;
 }
 
 header {
@@ -82,56 +85,5 @@ footer {
 footer p {
     color: #24252A;
     font-size: 12px;
-    text-align: center;
-}
-
-.formulario-login {
-    border: 1px solid #c0c0c0;
-    border-radius: 10px;
-    box-shadow: 3px 3px 6px #C0C0C0;
-    padding: 10px 20px;
-    width: 200px;
-    margin: auto;
-    align-items: center;
-}
-
-.formulario-login p {
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.formulario-login input {
-    font-size: 12px;
-    padding: 3px 10px;
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-.formulario-login button {
-    font-size: 12px;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.mensagemErro {
-    font-size: 10px;
-    padding: 5px 10px;
-    background-color: rgba(192, 0, 0, 0.75);
-    border: 1px solid #c0c0c0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px #C0C0C0;
-    text-align: center;
-}
-
-.mensagemSucesso {
-    font-size: 10px;
-    padding: 5px 10px;
-    background-color: rgba(64, 128, 192, 0.75);
-    border: 1px solid #c0c0c0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px #C0C0C0;
     text-align: center;
 }
