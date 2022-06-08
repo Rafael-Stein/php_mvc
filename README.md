@@ -2,5 +2,5 @@
  > Exemplo simplificado do padrão MVC utilizando a linguagem PHP
 
 ## Finalidades
- * Material de estudo e de simples entendimento
- * Uma estrutura base pra quem quiser criar um site utilizando MVC
+ * Material de estudo de simples entendimento
+ * Uma estrutura base em MVC para um sistema intranet ou mesmo para um site
