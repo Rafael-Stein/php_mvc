@@ -87,3 +87,31 @@ footer p {
     font-size: 12px;
     text-align: center;
 }
+
+.tabelaProdutos {
+    margin: 0 auto;
+}
+
+.tabelaProdutos th {
+    background-color: #24252A;
+    color: white;
+    padding: 3px 10px;
+}
+
+.tabelaProdutos td {
+    background-color: #c0c0c0;
+    color: black;
+    padding: 2px 10px;
+}
+
+.textoCentro {
+    text-align: center;
+}
+
+.textoDireita {
+    text-align: right;
+}
+
+.textoEsquerda {
+    text-align: left;
+}

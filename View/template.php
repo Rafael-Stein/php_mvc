@@ -18,7 +18,7 @@
                     <a href="http://localhost/php_mvc/">Início</a>
                 </li>
                 <li>
-                    <a href="http://localhost/php_mvc/home/empresa">Empresa</a>
+                    <a href="http://localhost/php_mvc/produto">Produtos</a>
                 </li>
             </ul>
         </nav>

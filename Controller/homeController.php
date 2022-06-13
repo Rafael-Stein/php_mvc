@@ -7,11 +7,6 @@ Class homeController extends Controller
         $this->LoadTemplate('home');
     }
 
-    public function empresa()
-    {
-        $this->LoadTemplate('empresa');
-    }
-
     public function contato()
     {
         $this->LoadTemplate('contato');
