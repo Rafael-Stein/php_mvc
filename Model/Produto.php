@@ -27,7 +27,6 @@ class Produto
             $this->nome = 'Produto_' . $i;
             //Estamos utilizando um numero aleatório pra criar o exemplo de produto
             $this->quantidade = rand(1, 10);
-            //Substituir a virgula por ponto para formatação do valor
             $this->valorUnitario = ($i + 1) * rand(11, 55);
             //Adicionar todos os dados de cada produto como um array
             $produtos[$i] = array($this->id, $this->nome, $this->quantidade, $this->valorUnitario);
